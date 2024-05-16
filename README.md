@@ -15,7 +15,7 @@ Data
 - User profile database: stores usernames and passwords.
 - Memo database: stores memos together based on the user logged in.
 Work Delegation
-- Sahith: Will work on the CSS of the whole program
+- Sahith: Will work on the CSS of the whole program. Will also implement client-side JavaScript.
 - Andrew: Will design the digital art needed for the program. Will also implement the
 majority of the client-side Javascript.
 - Preet: Will build the HTML for the website.
