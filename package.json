@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server2.js",
+    "prestart": "npm run build",
+    "build": "handlebars views/partials/stickyTemplate.handlebars -f static/stickyTemplate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8"
+  }
+}

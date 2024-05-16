@@ -1,0 +1,754 @@
+/*
+ * Collaborators:       Sahith Chandra, Andrew Inman, Preet Patel
+ * Name:        MEMOZ
+ */
+
+ body{
+    margin:0;
+    background-color: rgb(202, 196, 160);
+    
+}
+
+header {
+    height: 150px;
+    background-color: #3b3361;
+    min-height: 10vh;
+
+}
+
+/* START OF HOME PAGE CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.homepage{
+    background-color: rgb(202, 196, 160);
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100px;
+    border-top: 5px solid black;
+    position: relative;
+    min-height: 80vh;
+}
+
+.homepage .title-image-container{
+    padding-top: 75px;
+}
+
+.homepage .title-image-container img{
+    width: 450px;
+    filter: hue-rotate(285deg);
+}
+
+.homepage h2{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.homepage-input-container{
+    border: 2px black solid;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+#homepage-username{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#homepage-password{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+#homepage-login-button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #fac882 0, #fe8c00 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+#homepage-login-button:focus {
+  box-shadow: #ffae00 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e0a73c 0 -3px 0 inset;
+}
+
+#homepage-login-button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e0b13c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#homepage-login-button:active {
+  box-shadow: #e0a73c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+#homepage-login-button{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.homepage a {
+    color: black;
+    text-decoration: none;
+}
+
+  
+  .homepage #credit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+/* END OF HOME PAGE CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* START OF 404 CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.title-image-container{
+    padding-top: 75px;
+}
+
+.title-image-container img{
+    width: 450px;
+    filter: hue-rotate(285deg);
+}
+
+.error-container{
+    background-color: rgb(202, 196, 160);
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100px;
+    border-top: 5px solid black;
+    position: relative;
+    min-height: 80vh;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 300px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+h4 {
+    margin: 0;
+}
+
+
+  #credit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+/* END OF 404 CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* START OF REGISTER CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body{
+    margin:0;
+    background-color: rgb(202, 196, 160);
+    
+}
+
+header {
+    height: 150px;
+    background-color: #336154;
+}
+
+.register .title-image-container{
+    padding-top: 75px;
+}
+
+.register .title-image-container img{
+    width: 450px;
+    filter: hue-rotate(285deg);
+}
+
+.register{
+    background-color: rgb(202, 196, 160);
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100px;
+    border-top: 5px solid black;
+    position: relative;
+    min-height: 80vh;
+}
+
+.register h2{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.register-input-container{
+    border: 2px black solid;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#register-username{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#register-password{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#register-confirm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+#register-button {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #fac882 0, #fe8c00 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  #register-button:focus {
+    box-shadow: #ffae00 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e0a73c 0 -3px 0 inset;
+  }
+  
+  #register-button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e0b13c 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  #register-button:active {
+    box-shadow: #e0a73c 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  #register-button{
+      margin-top: 20px;
+      margin-bottom: -20px;
+      padding: 25px;
+  }
+
+
+  #credit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+/* END OF REGISTER CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* START OF MAIN CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+}
+
+.main-header-container .title-image-container{
+  margin-top: -60px;
+    
+}
+.main-header-container .title-image-container img{
+    width: 200px;
+    filter: hue-rotate(285deg);   
+}
+
+.main-header-container .title-name-container{
+    margin-left: -150px;
+    font-size: 40px;
+    margin-top: 5px;
+    
+}
+
+#settings-button{
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+
+.main-header-container button{
+    background-color: #336154; /* Green */
+    border-radius: 20px;
+    border: 0;
+}
+
+.main-header-container button:hover{
+    cursor: pointer;
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #16541f 0 -3px 0 inset;
+}
+
+.main-content-container{
+    background-color: rgb(202, 196, 160);
+    border-top: 5px solid black;
+    margin-top: -70px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.bulleting-outside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 815px;
+    height: 715px;
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* border: 5px solid rgb(99, 80, 59); */
+    border-radius: 20px;
+    background-color: rgb(99, 80, 59);
+}
+
+.bulleting-inside-container{
+    position: relative;
+    max-width: 800px;
+    max-height: 700px;
+    height: 100%;
+    width: 100%;
+    margin-left: 2px;
+    /* margin: -5px; */
+    padding: 5px;
+    /* border: 5px solid rgb(161, 132, 99); */
+    border-radius: 20px;
+    background-color: rgb(161, 132, 99);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-calender-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 802px;
+    height: 702px;
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 8px solid rgb(46, 46, 46);
+    border-radius: 20px;
+    background-color: rgb(224, 224, 224);
+
+    min-height: 75vh;
+   
+}
+
+.calendar-header{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+.current-date{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    color: rgb(75, 75, 75);  
+    font-size: 1.9rem ;
+}
+.icons span:hover{
+    background: lightgrey;
+}
+.icons span:last-child{
+    margin-right: -10px;
+}
+.main-calender{
+    width: 760px;
+    padding: 10px;
+}
+
+.main-calender ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-calender ul li{
+    position: relative;
+    width: calc(100% / 7);
+}
+
+.main-calender .days{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.weeks li{
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.main-calender .days li{
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.days li.inactive{
+    color: #aaa;
+}
+
+.days li.active{
+    color: rgb(224, 224, 224);
+}
+
+.main-calender .days li::before{
+    position: absolute;
+    content: "";
+    height:40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+ .days li:hover::before{
+    background: rgb(211, 211, 211);
+}
+
+.days li.active::before{
+    background: #db9c30;
+}
+
+footer {
+    position:relative;
+    width: 98.8%;
+    border: 5px solid black;
+    background-color: #164638;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 10%; Use percentage for height */
+    /* height: 90px;
+    width: 98.8%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    font-size: 20px; 
+    min-height: 9vh;
+    
+}
+
+
+#credit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#settings-nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: darkgray;
+    width: 200px;
+    height: 300px;
+    margin-left: 200px;
+    transition: 1s;
+    left:160svh;
+    top: 100px;
+    z-index: 1;
+}
+
+#closenav{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: #555;
+    color: #ddd;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 11px;
+    text-decoration: none;
+}
+#closenav:hover{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: #555;
+    color: red;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 11px;
+    text-decoration: none;    
+}
+#add-sticky-button{
+    height: 55px;
+    width: 135px;
+    margin-top: 40px;
+    margin-left: 35px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+#DL-mode{
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+#dark-mode-checkbox{
+    margin-top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+/* END OF MAIN CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* CSS for the Sticky note modal -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#modal_backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(45, 45, 45, 0.85);
+}
+
+#modal {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_sticky_note {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-image: url("./PinkSticky.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky_info_container {
+    height: 340px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.sticky_info {
+    height: 50px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;
+    border-radius: 5px
+}
+
+#sticky_info_memo {
+    height: 145px;
+    resize: none;
+}
+
+.inner_info_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sticky_date_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#date_label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sticky_info_date {
+    width: 230px;
+    border: 4px solid black;
+    border-radius: 5px;
+    font-size: 36px;
+}
+
+#submit_sticky_button {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: forestgreen;
+    background-color: transparent;
+    border: none;
+    padding-right: 96px;
+    padding-bottom: 139px;
+}
+
+/*Credit to: https://stackoverflow.com/questions/57892727/hide-the-calendar-icon-in-google-chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+div[data-color="pink"] {
+    filter: hue-rotate(0deg);
+}
+
+div[data-color="orange"] {
+    filter: hue-rotate(100deg);
+}
+
+div[data-color="blue"] {
+    filter: hue-rotate(250deg);
+}
+
+/*End of CSS for the Sticky note modal -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* sticky note css -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.sticky-note {
+    background-image: url("./PinkSticky.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+
+.sticky-note>p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

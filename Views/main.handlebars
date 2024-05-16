@@ -1,0 +1,88 @@
+<!--
+ - Collaborators:       Sahith Chandra, Andrew Inman, Preet Patel
+ - Name:        MEMOZ
+ -->
+
+    <header>
+        <div class="main-header-container">
+            <div class="title-image-container">
+                <img src="/MEMOZ.png" alt="MEMOZ Title">
+            </div>
+            <div class="title-name-container">
+                <!--this is where the username would go-->
+                <span>{{username}}</span>
+            </div>
+            <button type="button" id="settings-button"><i class="fa fa-gear" style="font-size:36px;"></i></button>
+        </div>
+    </header>
+    <main>
+        <div class="main-content-container">
+            <div class="main-bulleting-container">
+                <div class="bulleting-outside-container">
+                    <div class="bulleting-inside-container">
+                        <!-- this is where the sticky notes go-->
+                        {{#each userStickyNotes}}
+                        {{> stickyTemplate}}
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+            <div class="main-calender-container">
+                <div class="calendar-header">
+                    <p class="current-date"></p>
+                    <div class="icons">
+                        <span id="prev" class="material-symbols-rounded">&lsaquo;</span>
+                        <span id="next" class="material-symbols-rounded">&rsaquo;</span>
+                    </div>
+                </div>
+                <div class="main-calender">
+                    <ul class="weeks">
+                        <li>Sun</li>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thu</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                    </ul>
+                    <ul class="days">                 </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Pull-out window from gear button-->
+    <div id="settings-nav-container" class="hidden">
+        <div id="settings-nav" class="hidden">
+            <a href="javascript:void(0)" id="closenav" onclick=""> &times </a>
+            <button id="add-sticky-button"> Add Sticky</button>
+            <fieldset id="DL-mode">
+                <div>
+                    <input type="radio" name="Mode" id="light-mode-checkbox" value="" checked>
+                    <label for="light-mode-checkbox"> Lightmode </label>
+                </div>
+                <div>
+                    <input type="radio" name="Mode" id="dark-mode-checkbox" value="">
+                    <label for="dark-mode-checkbox"> DarkMode </label>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <!--Modal for adding sticky notes-->
+    <div id="modal_backdrop" class="hidden">
+        <div id="modal" class="hidden">
+            <div class="modal_sticky_note" data-color="orange">
+                <div class="sticky_info_container">
+                    <textarea class="sticky_info" id="sticky_info_memo" rows="2" cols="10" placeholder="Memo" maxLength="45" autofocus required></textarea>
+                    <div class="inner_info_container">
+                        <div class="sticky_date_container">
+                            <label id="date_label" for="sticky_info_date">Date:</label>
+                            <input type="date" class="sticky_info" id="sticky_info_date" />
+                        </div>
+                        <button id="submit_sticky_button">&#10003;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

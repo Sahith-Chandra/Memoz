@@ -1,0 +1,53 @@
+{
+  "Sahith": {
+    "password": "p4dKeeM40",
+    "stickies": [
+      {
+        "memo": "Math Final",
+        "truncatedMemo": "Math Final",
+        "memoDate": "2023-12-15",
+        "stickyColor": "orange"
+      },
+      {
+        "memo": "Christmas!",
+        "truncatedMemo": "Christmas!",
+        "memoDate": "2023-12-25",
+        "stickyColor": "blue"
+      }
+    ]
+  },
+  "Andrew": {
+    "password": "Il1k3C0d1ng",
+    "stickies": [
+      {
+        "memo": "Dish Crew",
+        "truncatedMemo": "Dish Crew",
+        "memoDate": "",
+        "stickyColor": "blue"
+      },
+      {
+        "memo": "History office hours with Professor Barstow.",
+        "truncatedMemo": "History office hours ",
+        "memoDate": "2023-12-13",
+        "stickyColor": "pink"
+      }
+    ]
+  },
+  "Preet": {
+    "password": "pa+3lR0x",
+    "stickies": [
+      {
+        "memo": "Register for Winter Term classes! ",
+        "truncatedMemo": "Register for Winter T",
+        "memoDate": "2023-12-18",
+        "stickyColor": "orange"
+      },
+      {
+        "memo": "Work on final project.",
+        "truncatedMemo": "Work on final project",
+        "memoDate": "2023-12-1",
+        "stickyColor": "orange"
+      }
+    ]
+  }
+}
